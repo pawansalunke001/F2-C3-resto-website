@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="main container-fluid">
+    <div class="row">
+      <div class="left-main col-lg-3 col-md-3">
+        <img class="restoMenuImg " src="./img/javanese character with blangkon holding_8999487 1.png" alt=""
+          width="290px">
+        <div class="restoMenu">
+          <h4>Your Restaurant Menu</h4>
+        </div>
+        <div class="restoMenu">For the love of delicious food</div>
+        <hr>
+        <div>
+          <div class="restoMenu">
+            <h4>Quick Links</h4>
+          </div>
+          <ol>
+            <li>Home</li>
+            <li>Your Orders</li>
+            <li>Wallet</li>
+            <li>Profile</li>
+            <li>Logout</li>
+          </ol>
+        </div>
+        <hr>
+        <div class="restoMenu">
+          <h4>More About Us</h4>
+        </div>
+        <ol>
+          <li>Our blog</li>
+          <li>Upcoming Dishes</li>
+          <li>Our Story</li>
+          <li>Social Media Links</li>
+        </ol>
+      </div>
+      <div class="right-main col-lg-9 col-md-9">
+        <!-- Headerbar with search bar, signup, login and profile photo -->
+        <div class="row header-bar">
+          <nav class="navbar">
+            <div class="row container-fluid">
+              <!-- <div class="d-flex"> -->
+              <div class="col-lg-7"><input class="search-input form-control me-2" type="search"
+                  placeholder="Search Food Item" aria-label="Search"> </div>
+              <div class="col-lg-2"><button class="signup btn" type="submit">Signup</button></div>
+              <div class="col-lg-2"><button class="login btn" type="submit">Login</button></div>
+              <div class="col-lg-1"><img src="./img/logoSize-javanese character with blangkon holding_8999487 2.png"
+                  alt=""></div>
+              <!-- </div> -->
+            </div>
+          </nav>
+        </div>
+
+        <!-- Banner image -->
+        <div class="row banner-div">
+          <img class="banner" src="./img/main-poster.png" alt="mainposter">
+        </div>
+
+        <!-- Menu title -->
+        <div class="row"> <a class="anchor" href="./menu.html">
+            <h1>Menu</h1>
+          </a></div>
+        <!-- Menu Items cards -->
+        <div class="menuItems row" id="menuItems"></div>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

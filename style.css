@@ -1,0 +1,133 @@
+/* Body CSS */
+.main {
+    color: white;
+    /* display: flex; */
+
+}
+
+/* Left side bar */
+.left-main {
+    background-color: #0C0E10;
+    height: 100vh;
+    overflow: hidden !important;
+    padding: 15px;
+}
+
+/* hide scrollbar */
+.left-main::-webkit-scrollbar {
+    display: none;
+}
+
+.restoMenuImg {
+    align-items: center;
+    width: 75%;
+    height: auto;
+}
+
+.restoMenu {
+    text-align: center;
+}
+
+/* End of Left side CSS */
+
+
+/* Right side bar */
+.right-main {
+    background-color: #111315;
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
+
+/* Hide scrollbar */
+.right-main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header background */
+.header-bar {
+    background-color: #191D20 !important;
+}
+
+/* search button css */
+.search-input {
+    border-radius: 5px;
+    background-color: #272A30 !important;
+    border-color: #272A30 !important;
+    color: #878787 !important;
+}
+
+/* Signup and login button css */
+.signup,
+.login {
+    color: #F5F5F5 !important;
+    background-color: #FF2424 !important;
+    width: -webkit-fill-available !important;
+}
+
+/* End of Header CSS */
+
+/* Banner CSS */
+.banner {
+    width: -webkit-fill-available;
+    margin-bottom: 15px;
+}
+
+/* End of Banner CSS */
+
+/* Menu CSS */
+.anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.menuItems {
+    width: 100%;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+}
+
+.menuItems1 {
+    width: 100%;
+    overflow-x: scroll !important;
+}
+
+.menuItems::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    border-radius: 10px !important;
+    background-color: #191D20 !important;
+}
+
+.menu-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* End of menu CSS */
+
+/* End of Right side bar */
+
+
+
+/* Media query */
+@media only screen and (max-width:1000px) {
+    .header-bar .row div {
+        margin-bottom: 5px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .left-main {
+        height: 100%;
+        overflow-y: scroll !important;
+    }
+
+    .header-bar .row div {
+        margin-bottom: 5px !important;
+    }
+}
+
+/* End of Media query */
